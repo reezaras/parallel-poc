@@ -1,0 +1,37 @@
+{
+  "name": "root",
+  "assignee" : "",
+  "execute" : "Parallel",
+  "terminate": "And-Merge",
+  "steps" : [
+    {
+      "name": "brancher",
+      "assignee" : "",
+      "execute" : "Parallel",
+      "terminate": "And-Merge",
+      "steps" : [
+        {
+          "name": "b2s1",
+          "assignee" : "shams",
+          "execute" : "",
+          "terminate": "",
+          "steps" : []
+        },
+        {
+          "name": "b2s2",
+          "assignee" : "hamed",
+          "execute" : "",
+          "terminate": "",
+          "steps" : []
+        }
+      ]
+    },
+    {
+      "name": "b1s2",
+      "assignee" : "navid",
+      "execute" : "",
+      "terminate": "",
+      "steps" : []
+    }
+  ]
+}

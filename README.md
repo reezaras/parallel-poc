@@ -1,2 +1,1 @@
-# parallel-poc
-cadence leaf and branching demo
+Demo code for leaf and branching.
